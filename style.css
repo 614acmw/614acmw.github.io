@@ -16,6 +16,24 @@ IMG {
     margin-left: auto;
     margin-right: auto }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+block {
+        background: light grey;
+        border-radius: 1em;
+        padding: 1em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) }
+
+
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
