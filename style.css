@@ -4,12 +4,12 @@
 body {
   margin: 0;
   font-family: Verdana, Arial, Helvetica, sans-serif;
-  font-size: 14;}
+  font-size: 1vw;}
 
 
-P { font-size: 5vw }
+P { font-size: 1vw }
 H2 { font-family:Georgia, serif;
-    font-size: 7vw }
+    font-size: 2vw }
 
 IMG {
     display: block;
