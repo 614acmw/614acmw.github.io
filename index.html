@@ -68,7 +68,38 @@
 </li><li>Member Badge image for email and webpage
 </ul>
 
-Interested in becoming a member?  <a href="#contact">Contact us!</a>
+
+<div class="form-container row">
+<div class="text-center branding">
+<p id="error-msg"></p>
+</div>
+<div class="panel panel-default" id="forms">
+<div class="panel-heading">
+Interested in hearing about 614acmw events and activities? 
+<form role="form" id="theForm" name="myForm" method="POST" action="stl.cfm">
+<fieldset>
+<legend>Add your email here!</legend>
+<div class="form-group row top-20">
+<div class="col-sm-2 col-sm-offset-1">
+<label for="add_email" class="control-label form-adjust">Email*</label>
+</div>
+<div class="col-sm-6 form-adjust">
+<input type="text" class="form-control" id="add_email" name="add_email" placeholder="Email" value maxlength="128" required><i class="form-control-feedback glyphicon glyphicon-remove"></i>
+</div>
+</div>
+</fieldset>
+<input type="Hidden" name="list_name" value="ACMW614-MEMBERS">
+<fieldset>
+<div class="form-group row top-20">
+<div class="col-sm-11 col-sm-offset-1">
+<input id="subscribe" name="subscribe" type="submit" value="Sign Up" class="btn btn-primary form-adjust">
+</div>
+</div>
+</fieldset>
+</form>
+</div>
+</div>
+
   
 <h2 id="events">Events</h2>
   <table> 
